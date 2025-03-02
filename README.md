@@ -1,6 +1,22 @@
 # Acoustic Vibration of a Material Layer - Galerkin Method
 This repository implements a numerical solution for the acoustic vibration of a material layer using the Galerkin method. The code computes the solution of a differential equation with a finite element approach and visualizes the result through a Tkinter-based GUI and Matplotlib. Users can input the number of grid points and generate a plot of the solution.
 
+### Problem:
+Differential equation:
+
+&nbsp;&nbsp;&nbsp;&nbsp;d²u(x)/dx² - u(x) = sin(x)
+
+Boundary conditions:
+
+&nbsp;&nbsp;&nbsp;&nbsp;u(0) = -2
+
+&nbsp;&nbsp;&nbsp;&nbsp;du(2)/dx + u(2) = -8
+
+Where u is the sought function:
+
+&nbsp;&nbsp;&nbsp;&nbsp;u: [0, 2] → ℝ
+
+
 ### Application Interface:
 <div align="center">
   
